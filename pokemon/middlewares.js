@@ -4,4 +4,4 @@ _.get('/num/:id', async (ctx, next) => {
   ctx.body = `https://cn.portal-pokemon.com/play/pokedex/${ctx.params.id}`
   await next()
 })
-exports.default = [_.routers(), _.allowedMethods()]
+exports.default = [_.routes(), _.allowedMethods()]
