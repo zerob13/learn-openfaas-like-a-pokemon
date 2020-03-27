@@ -1,0 +1,15 @@
+{
+  "name": "openfaas-function",
+  "version": "1.0.0",
+  "description": "openfaas koa function",
+  "main": "middlewares.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "zerob13",
+  "license": "ISC",
+  "dependencies": {
+    "koa-route": "^3.2.0"
+  }
+}
